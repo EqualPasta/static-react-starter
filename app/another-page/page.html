@@ -1,0 +1,10 @@
+{% extends "layout.nunjucks" %}
+{% block styles %}
+  <link rel="stylesheet" href="/css/another-page/style.css">
+ {% endblock %}
+
+{% block content %}
+  <div id="react-root-mount"></div>
+
+<script src="/app/another-page/entry.bundle.js"></script>
+{% endblock %}

@@ -1,0 +1,32 @@
+body, html {
+  background-color: #EDECDC;
+  margin: auto;
+  padding: 0;
+  height: 100%;
+
+  .centerContent {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    max-width: 50em;
+  }
+}
+
+.header {
+  background-color: black;
+  padding: 2px;
+  a, p {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    margin: 0.2em;
+    margin-left: 2em;
+
+    font-family: "Helvetica", sans-serif;
+  }
+}
+h1 {
+  color: #39114D;
+  font-family: "Helvetica", sans-serif;
+  font-size: 2em;
+}
